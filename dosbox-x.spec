@@ -4,12 +4,12 @@
 Summary:	DOS Emulator
 Summary(pl.UTF-8):	Emulator DOS-a
 Name:		dosbox-x
-Version:	2026.03.29
+Version:	2026.05.02
 Release:	0.1
 License:	GPL v2+
 Group:		Applications/Emulators
 Source0:	https://github.com/joncampbell123/dosbox-x/archive/refs/tags/%{name}-v%{version}.tar.gz
-# Source0-md5:	91a281121fcff7187ab832308aafc74a
+# Source0-md5:	3b4b3cc16fbcaa5c3324c1cbebe28cdd
 URL:		https://dosbox-x.com/
 BuildRequires:	SDL2-devel
 BuildRequires:	SDL2_image-devel
