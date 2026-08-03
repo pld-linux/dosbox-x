@@ -5,7 +5,7 @@ Summary:	DOS Emulator
 Summary(pl.UTF-8):	Emulator DOS-a
 Name:		dosbox-x
 Version:	2026.08.02
-Release:	0.1
+Release:	1
 License:	GPL v2+
 Group:		Applications/Emulators
 Source0:	https://github.com/joncampbell123/dosbox-x/archive/refs/tags/%{name}-v%{version}.tar.gz
@@ -39,6 +39,7 @@ Requires(post,postun):	desktop-file-utils
 Requires(post,postun):	gtk-update-icon-cache
 Suggests:	bash-completion-%{name}
 Obsoletes:	dosbox <= 0.74.3
+ExcludeArch:	x32
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
