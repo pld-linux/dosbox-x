@@ -5,7 +5,7 @@ Summary:	DOS Emulator
 Summary(pl.UTF-8):	Emulator DOS-a
 Name:		dosbox-x
 Version:	2026.10.01
-Release:	1
+Release:	2
 License:	GPL v2+
 Group:		Applications/Emulators
 Source0:	https://github.com/joncampbell123/dosbox-x/archive/refs/tags/%{name}-v%{version}.tar.gz
